@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+body{
+    background-color: #dbdbdb;
+}
+.container{
+    width: 500px;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topArea{
+    height: 70px;
+    width: 500px;
+    background-color :#dadee0;
+    border-radius: 20px;
+    border: 1px solid #d8d8d8;
+    box-shadow:  7px 7px 20px #bcbcbc,
+    -7px -7px 20px #ffffff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.input, .filter{
+    margin: auto;
+}
+.toDoArea{
+	margin: 30px;
+	width: 400px;
+}
+.toDoDiv{
+	/* height: 45px; */
+	line-height: 45px;
+	border-radius: 7px;
+	border: 1px solid #d8d8d8;
+    box-shadow:  7px 7px 20px #bcbcbc,
+    -7px -7px 20px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.toDo{
+	width: 250px;
+	font-size: 20px;
+	padding: 5px 10px;
+    text-shadow: 1px 1px 2px #2d2d2dc2,
+    -1px -1px 2px #ffffff;
+}
+#toDoFilter{
+	height: 25px;
+	width: 120px;
+	border: 1px solid #d8d8d8;
+	background-color: rgb(240, 240, 240);
+    box-shadow: 4px 4px 10px #bcbcbc,
+    -4px -4px 10px #ffffff;
+    border-radius: 7px;
+}
+input{
+	height: 25px;
+	border-radius: 7px;
+	width: 200px;
+	line-height: 25px;
+	padding: 5px 10px;
+	background-color: #dbdbdb;
+	border: 1px solid #cecece;
+    box-shadow: inset 4px 4px 10px #bcbcbc,
+    inset -4px -4px 10px #ffffff;
+    text-shadow: 1px 1px 2px #2d2d2dc2,
+    -1px -1px 2px #ffffff;
+    font-weight: bold;
+}
+button{
+	height: 30px;
+	width: 30px;
+	border-radius: 7px;
+    margin: 8px;
+    border: 1px solid #d8d8d8;
+    box-shadow:  3px 3px 6px #bcbcbc,
+    -3px -3px 6px #ffffff;
+    background-color:#e6e6e6;
+}
+button:hover{
+    background-color:#eeeeee;
+    cursor: pointer;
+}
+button:active{
+    box-shadow: inset 2px 2px 5px #bcbcbc,
+    inset -2px -2px 5px #ffffff;
+}
+.completeBtn, .trashBtn{
+    margin: 0px 10px 0px 0px;
+}
+.completedToDo{
+    opacity: 50%;
+    text-decoration: line-through;
+    box-shadow:  inset 7px 7px 20px #bcbcbc,
+    inset -7px -7px 20px #ffffff;
+}
